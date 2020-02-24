@@ -1,0 +1,9 @@
+6 / 10
+
+this looks pretty close, but is kind of broken in its current
+state. You want to try and print using a single `printf()` statement
+instead of looping over the characters yourself.
+
+the commented out code has caused some mismatched braces as well
+which makes the program error out on valid input (if base is not
+power of two?)

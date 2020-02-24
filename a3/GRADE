@@ -1,0 +1,22 @@
+oliver.d.sanchez
+a3
+`make flash` compiles and flashes `signal.c`
+
+mode 1 works if red is attached to P2.1, but this is due to timer/signal on that pin, not execution loop.
+
+PORT1_VECTOR is triggered when the button is pressed. it should change modes but probably shouldn't change P1OUT/P2OUT
+
+it looks like 
+    P1.0 is supposed to be for red
+    P1.1 is supposed to be for green, and
+    P2.2 is supposed to be for blue
+    
+timer/signal successfully configured on P2.1
+
+good comments
+
+no modes operate correctly
+
+TimerA interrupt handler is missing
+
+6/20

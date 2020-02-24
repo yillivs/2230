@@ -1,0 +1,33 @@
+TEST:
+$ divd 16 4
+
+4 0
+
+$ divd 16 5
+
+3 1
+
+$ divd 12 2
+
+6 0
+
+$ divd 11 2
+
+5 1
+
+$ divd 6 7
+
+1 -1
+
+$ divd 0 1
+
+1 -1
+
+$ divd 1 0
+
+$
+
+Nice one! Formatting is a little strange,
+but the comments are good. Keep it up!
+
+GRADE: 10 / 10
