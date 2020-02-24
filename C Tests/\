@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main(int argc, char *argv[]) //second value of array must be **argv[] error?
+{
+	char *ascii = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz+/";
+	char buffer[32] = {0}; //character array as buffer initialized to 0.
+
+//argc must equal 3. Our argument count should contain program name, decimal number and desired base.
+	if(argc == 3){
+		
+		printf("decimal = %s\n", argv[1]);
+		printf("base = %s\n", argv[2]);
+
+		if(argv[2] =< 64){//the desired base must be less than or equal to 64.
+
+		}
+
+	}
+	else{
+		printf("Expecting two command line inputs. Decimal number and base desired.");
+	}
+
+
+}
